@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    /* your code should be written here  */
+}
+
+@media (max-width: 600px) {
+    /* your code should be written here  */
+    .container {
+        display: inline;
+    }
+    .grid-content {
+        display: inline-flex;
+    }
+    .grid-content-tile {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1800px) {
+    /* your code should be written here */
+    .grid-content-tile {
+        width: 15%;
+    }
+    .nav {
+        flex-direction: row;
+    }
+}
